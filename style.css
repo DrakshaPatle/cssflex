@@ -1,0 +1,116 @@
+* {
+    margin: 10px;
+    padding: 10;
+    left:10px;
+    box-sizing: border-box;
+  }
+  
+  /* Flexbox example */
+  /* .container3 {
+    background-color: #ffd43b;
+    height: 100%;
+  }
+   */
+  .container4 {
+    background-color: #1735aa;
+    height: 100%;
+  }
+  
+  .flex-examples {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    align-items: center;
+    row-gap: 40px;
+  }
+  
+  .flex-container {
+    gap: 10px;
+    width: 500px;
+    min-height: 100px;
+    height: auto;
+    background-color: #fff;
+     color: white; */
+    border: 2px solid black;
+
+  }
+  
+
+
+  .item p {
+    width: 55px;
+    height: 70px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: green;}
+    to {background-color: pink;}
+  }
+
+  .item p {
+    /* background: url("..path/to/image") repeat-x; */
+    /* height: 560px;
+    width: 5076px; */
+    /* //animation: slide 60s linear infinite; */
+  }
+  
+  @keyframes slide{
+    100%{
+      transform: translate3d(0, 0, 0);
+    }
+    100%{
+      transform: translate3d(-1000px, 0, 0);
+    }
+  }
+  
+
+  .item p {
+    padding: 25px 35px;
+    margin: 0px;
+    background-color: rgb(10, 9, 9);
+    border-radius: 10px;
+  }
+  
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 110, 164);
+    border-radius: 10px;
+    
+
+  }
+  
+  .jc-start {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(253, 189, 26);
+    border-radius: 10px;
+    border: 8px double rgb(7, 64, 219);
+     /* animation: slide 60s linear infinite; */
+  }
+  
+  .jc-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(52, 110, 164);
+    border-radius: 10px;
+margin:10px
+  }
+  
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .col {
+    flex-direction: column;
+  }
+  .col-reverse {
+    flex-direction: column-reverse;
+  }
+  
